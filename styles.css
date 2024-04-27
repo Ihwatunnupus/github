@@ -1,0 +1,77 @@
+/* CSS Styles for Formulir Data */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+table, th, td {
+    border: 1px solid #000;
+    padding: 8px;
+}
+
+th {
+    text-align: left;
+    background-color: #49c5ff;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    width: calc(100% - 16px);
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    background-color: #49c5ff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #37a3e1;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+    table {
+        width: 90%;
+    }
+}
